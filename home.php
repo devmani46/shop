@@ -64,11 +64,11 @@ if(isset($_POST['add_to_cart'])){
 
 <section class="home">
 
-   <div class="content">
-      <h3>Hand Picked Book to your door.</h3>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, quod? Reiciendis ut porro iste totam.</p>
-      <a href="about.php" class="white-btn">Discover more</a>
-   </div>
+<div class="content">
+   <h3>Top Tech, Handpicked for You!</h3>
+   <p>Explore the latest smartphones, laptops, and smart gadgets – all at unbeatable prices. Upgrade your tech game today!</p>
+   <a href="shop.php" class="white-btn">Shop Now</a>
+</div>
 
 </section>
 
@@ -119,8 +119,8 @@ if(isset($_POST['add_to_cart'])){
       </div>
 
       <div class="content">
-         <h3>About Us</h3>
-         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit quos enim minima ipsa dicta officia corporis ratione saepe sed adipisci?</p>
+      <h3>Why Choose ByteBazaar?</h3>
+      <p>At ByteBazaar, we bring you the latest and greatest in technology with a seamless shopping experience. Whether you're looking for cutting-edge gadgets, high-performance accessories, or everyday electronics, we’ve got you covered.</p>
          <a href="about.php" class="btn">Read more</a>
       </div>
 

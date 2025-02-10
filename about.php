@@ -32,8 +32,7 @@ if(!isset($user_id)){
 <?php include 'header.php'; ?>
 
 <div class="heading">
-   <h3>about us</h3>
-   <p> <a href="home.php">home</a> / about </p>
+   <h3>About us</h3>
 </div>
 
 <section class="about">
@@ -45,9 +44,16 @@ if(!isset($user_id)){
       </div>
 
       <div class="content">
-         <h3>why choose us?</h3>
-         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet voluptatibus aut hic molestias, reiciendis natus fuga, cumque excepturi veniam ratione iure. Excepturi fugiat placeat iusto facere id officia assumenda temporibus?</p>
-         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit quos enim minima ipsa dicta officia corporis ratione saepe sed adipisci?</p>
+
+         <h3>Why Shop With Us?</h3>
+         <p>1. Wide Selection of Electronics – From smartphones to smart home devices, we offer a vast collection of top-tier tech products.
+            <br>2. Secure & Easy Shopping – Our platform ensures safe transactions and a hassle-free checkout process.
+            <br>3. Fast & Reliable Delivery – Get your orders delivered quickly with real-time tracking.
+            <br>4. 24/7 Customer Support – Our dedicated team is always here to assist you.
+            <br>5. Exclusive Deals & Discounts – Enjoy competitive prices with special offers and seasonal discounts.
+            <br>
+
+Shop smart, shop tech – only at ByteBazaar! </p>
          <a href="contact.php" class="btn">contact us</a>
       </div>
 
