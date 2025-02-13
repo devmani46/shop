@@ -53,7 +53,7 @@ if(!isset($user_id)){
             <br>5. Exclusive Deals & Discounts – Enjoy competitive prices with special offers and seasonal discounts.
             <br>
 
-Shop smart, shop tech – only at ByteBazaar! </p>
+Shop smart, shop tech – only at ElectroMart! </p>
          <a href="contact.php" class="btn">contact us</a>
       </div>
 

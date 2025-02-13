@@ -119,8 +119,8 @@ if(isset($_POST['add_to_cart'])){
       </div>
 
       <div class="content">
-      <h3>Why Choose ByteBazaar?</h3>
-      <p>At ByteBazaar, we bring you the latest and greatest in technology with a seamless shopping experience. Whether you're looking for cutting-edge gadgets, high-performance accessories, or everyday electronics, we’ve got you covered.</p>
+      <h3>Why Choose ElectroMart?</h3>
+      <p>At ElectroMart, we bring you the latest and greatest in technology with a seamless shopping experience. Whether you're looking for cutting-edge gadgets, high-performance accessories, or everyday electronics, we’ve got you covered.</p>
          <a href="about.php" class="btn">Read more</a>
       </div>
 
