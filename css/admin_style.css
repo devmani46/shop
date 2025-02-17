@@ -330,6 +330,12 @@ section{
 
 .show-products .box-container .box img{
    height: 30rem;
+   width: 100%;
+   object-fit: cover; 
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   overflow: hidden; 
 }
 
 .show-products .box-container .box .name{

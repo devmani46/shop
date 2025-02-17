@@ -89,7 +89,7 @@ if(isset($_POST['add_to_cart'])){
      <form action="" method="post" class="box">
       <img class="image" src="uploaded_img/<?php echo $fetch_products['image']; ?>" alt="">
       <div class="name"><?php echo $fetch_products['name']; ?></div>
-      <div class="price">$<?php echo $fetch_products['price']; ?>/-</div>
+      <div class="price">Rs <?php echo $fetch_products['price']; ?>/-</div>
       <input type="number" min="1" name="product_quantity" value="1" class="qty">
       <input type="hidden" name="product_name" value="<?php echo $fetch_products['name']; ?>">
       <input type="hidden" name="product_price" value="<?php echo $fetch_products['price']; ?>">
@@ -131,12 +131,13 @@ if(isset($_POST['add_to_cart'])){
 <section class="home-contact">
 
    <div class="content">
-      <h3>Have any questions?</h3>
-      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque cumque exercitationem repellendus, amet ullam voluptatibus?</p>
+      <h3>Need Assistance? We're Here to Help!</h3>
+      <p>Have questions about our products, orders, or warranty? Our team is ready to assist you with expert advice and quick support.</p>
       <a href="contact.php" class="white-btn">Contact Us</a>
    </div>
 
 </section>
+
 
 <?php include 'footer.php'; ?>
 

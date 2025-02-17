@@ -140,7 +140,7 @@ section{
    align-items: center;
    justify-content: center;
    gap:1rem;
-   background: url(../images/heading-bg.png) no-repeat;
+   background: url(../images/heading-bg.jpg) no-repeat;
    background-size: cover;
    background-position: center;
    text-align: center;
@@ -393,6 +393,12 @@ section{
 
 .products .box-container .box .image{
    height: 30rem;
+   width: 100%;
+   object-fit: cover; 
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   overflow: hidden; 
 }
 
 .products .box-container .box .name{
@@ -420,40 +426,6 @@ section{
    background-color: var(--red);
 }
 
-/* .about .flex{
-   max-width: 1200px;
-   margin:0 auto;
-   display: flex;
-   align-items: center;
-   flex-wrap: wrap;
-}
-
-.about .flex .image{
-   flex:1 1 40rem;
-}
-
-.about .flex .image img{
-   width: 100%;
-}
-
-.about .flex .content{
-   flex:1 1 40rem;
-   padding:2rem;
-   background-color: var(--light-bg);
-}
-
-.about .flex .content h3{
-   font-size: 3rem;
-   color:var(--black);
-   text-transform: uppercase;
-}
-
-.about .flex .content p{
-   padding:1rem 0;
-   line-height: 2;
-   font-size: 1.7rem;
-   color:var(--light-color);
-} */
 
 .about {
    padding: 50px 10%;
@@ -468,12 +440,12 @@ section{
 
 .about .image {
    flex: 1;
-   max-width: 40%; /* Limits the image size */
+   max-width: 40%;
 }
 
 .about .image img {
    width: 100%;
-   height: auto;
+   height: 100%;
    border-radius: 10px;
 }
 
@@ -739,6 +711,12 @@ section{
 
 .shopping-cart .box-container .box img{
    height: 30rem;
+   width: 100%;
+   object-fit: cover; 
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   overflow: hidden;
 }
 
 .shopping-cart .box-container .box .name{
@@ -947,13 +925,17 @@ section{
    background-color: var(--light-bg);
 }
 
+
+
 .footer .box-container{
    max-width: 1200px;
    margin:0 auto;
    display: grid;
    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
-   gap:3rem;
+   gap:37rem;
 }
+
+
 
 .footer .box-container .box h3{
    text-transform: uppercase;
